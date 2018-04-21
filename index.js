@@ -65,7 +65,7 @@ bot.on("message",function(message){
             if(message.guild.voiceConnection) message.guild.voiceConnection.disconnect();
             break;
         default:
-            message.channel.sendMessage("Szar vagy!:poop:")
+            message.channel.sendMessage("Szar vagy!:poop:");
     };
 
 });
